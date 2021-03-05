@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BanyanService"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "BanyanServiceTest is a framework to test the distribution of BY services"
   s.description  = <<-DESC
       BanyanServiceTest is a framework to test the distribution of BY services. BanyanServiceTest is a framework to test the distribution of BY services.
