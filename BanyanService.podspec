@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.ios.vendored_frameworks = 'BanyanService.framework'
-  s.source            = { :git => "git@github.com:sha8wn/Test_BY_Distr.git", :tag => "#{s.version}" }
+  s.source            = { :git => "https://github.com/sha8wn/Test_BY_Distr.git", :tag => "#{s.version}" }
   s.exclude_files = "Classes/Exclude"
 
 end
